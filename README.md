@@ -25,6 +25,14 @@ Which will set up the following keybindings:
 - `<leader>c` Cancel build process
 - `<leader>t` Show build errors/warnings in Trouble
 
+## Usage
+
+```lua
+require('make-runner').run('build')
+```
+
+On Windows, it will use `pwsh` on other platforms `bash`.
+
 ## Requirements
 
 - Neovim 0.11+ (May work with older versions but not tested)
